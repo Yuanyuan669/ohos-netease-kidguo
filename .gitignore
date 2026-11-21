@@ -16,3 +16,6 @@
 *.key
 *.pem
 *.hap
+
+# Large upstream demo recording (kept locally)
+images/video.mov
