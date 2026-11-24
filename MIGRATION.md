@@ -2,6 +2,11 @@
 
 Upstream: `kidGuo/HarmonyOS-NetEase-Cloud-Music` (source snapshot imported for porting).
 
+> **状态（2026-11-23）**：本移植计划已废弃。SDK 11 / 设备固件（OpenHarmony 4.1.7.5）没有任何
+> State Management V2 装饰器（`@ComponentV2/@Local/@Param/@Trace` 等 0 命中），全量移植等于重写
+> 状态层；已改为新建小工程 `ohos-netease`（bundle `com.local.netease`，API 11 + V1 + 零三方依赖，
+> 远端 `Yuanyuan669/ohos-netease-player`）。本仓仅作上游参考保留，勿再按下列 Work items 开工。
+
 ## Upstream status
 
 - `targetSdkVersion` / `compatibleSdkVersion`: `6.0.0(20)`, `runtimeOS: HarmonyOS`
